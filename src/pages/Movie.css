@@ -57,7 +57,7 @@
     line-height: 1.4rem;
 }
 
-@media (max-width:320px) {
+@media (min-width: 320px) and (max-width: 450px) {
     .movie-page{
         margin: 1rem;
     }
