@@ -59,3 +59,23 @@
     background-color: transparent;
     color: #f7d354;
 }
+
+@media (max-width: 320px) {
+    .movies-container{
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+    .movies-container div {
+        width: 100%;
+    }
+    .movies-container div h2{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .movies-container div a {
+        
+        padding: 0.5rem 0.5rem;
+        
+    }
+    
+}
